@@ -105,9 +105,9 @@ def displayStockInfo():
 def getChoice():
     validOptions = ("1","2","3","4")
     print("Options:")
-    print("1 - Fetch info for selected tickers")
-    print("2 - Add a ticker")
-    print("3 - Remove a ticker")
+    print("1 - Fetch info for selected stock")
+    print("2 - Add a stock")
+    print("3 - Remove a stock")
     print("4 - Quit")
     option = input("Select an option: ")
     #input validation
